@@ -6,9 +6,9 @@ import Card from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <center>
-    <Card path = "apple.jpeg"name ="apple"/>
-    <Card  path = "mango.jpeg" name ="mango"/>
-    <Card path = "orange.jpeg" name ="orange"/>
+    <Card path = "apple.jpeg"name ="apple" fancyname="APPLE" bio = "doctor away"/>
+    <Card  path = "mango.jpeg" name ="mango"  fancyname="MANGO" bio= "king"/>
+    <Card path = "orange.jpeg" name ="orange" fancyname="ORANGE" bio= "citric" />
   </center>
 );
 
